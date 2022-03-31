@@ -1,0 +1,12 @@
+#NÃO CONSEGUI FAZER X
+n = input ('digite algo:')
+print ('é da classe:')
+print (type(n))
+print ('Contém letras?:')
+print (n.isalpha())
+print ('Contém numeros?:')
+print (n.isnumeric())
+print ('é tudo em letras maisculas?:')
+print (n.isupper())
+print ('é tudo em letras minusculas?')
+print (n.islower())
